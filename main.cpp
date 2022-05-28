@@ -71,7 +71,7 @@ void admin_mode()
     cin.get();
     system("cls");
     string password;
-    string pass="HANNAH";
+    string pass="123";
     int i=0;
     int n=i+1;
     cout<<"\n\n\n\t\t\tYou have three attempts to login.\n\n";
@@ -88,7 +88,7 @@ void admin_mode()
         }
         else
         {
-            pass="HANNAH";
+            pass="123";
             i=3;
         }
     }
